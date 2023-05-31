@@ -10,11 +10,16 @@ Install [GenerateSyntaxTestAssertions](https://packagecontrol.io/packages/Genera
 
 ## Commands
 
-Command                          | Description
-:--------------------------------| :----------
-**GenerateSyntaxTestAssertions** | Generates syntax test assertions and inserts them at the cursor.
+Command                             | Description
+:-----------------------------------| :----------
+**Generate Syntax Test Assertions** | Generates syntax test assertions and inserts them at the cursor.
 
-## Example
+## Usage
+
+Put your cursor on a line that you want to generate syntaxes for and run the
+command.
+
+**Command Palette → Generate Syntax Test Assertions**
 
 ```php
 <?php
@@ -28,6 +33,11 @@ declare(strict_types=1);
 //                    ^ embedding.php text.html.php meta.embedded.php source.php.embedded.html meta.group.php punctuation.section.group.end.php
 //                     ^ embedding.php text.html.php meta.embedded.php source.php.embedded.html punctuation.terminator.statement.php
 ```
+
+The generator inserts tests for all points on the line. You can adjust the tests
+as needed.
+
+See [Sublime Text Syntax Definition Documentation](https://www.sublimetext.com/docs/syntax.html).
 
 ## License
 
