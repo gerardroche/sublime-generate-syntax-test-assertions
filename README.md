@@ -1,8 +1,8 @@
 # GenerateSyntaxTestAssertions
 
-A Sublime Text plugin to generate syntax test assertions.
+Generate Sublime Text syntax test assertions for the current cursor position.
 
-## Setup
+## Installation
 
 **Pending availability in Package Control.**
 
@@ -16,7 +16,7 @@ Command                             | Description
 
 ## Usage
 
-Put your cursor on a line that you want to generate syntaxes for and run the
+Put your cursor on a line that you want to generate syntax test assertions for and run the
 command.
 
 **Command Palette → Generate Syntax Test Assertions**
@@ -34,10 +34,7 @@ declare(strict_types=1);
 //                     ^ embedding.php text.html.php meta.embedded.php source.php.embedded.html punctuation.terminator.statement.php
 ```
 
-The generator inserts tests for all points on the line. You can adjust the tests
-as needed.
-
-See [Sublime Text Syntax Definition Documentation](https://www.sublimetext.com/docs/syntax.html).
+The generator inserts test assertions for all points on the line. Adjust as needed. See [Sublime Text Syntax Definition Documentation](https://www.sublimetext.com/docs/syntax.html).
 
 ## License
 
