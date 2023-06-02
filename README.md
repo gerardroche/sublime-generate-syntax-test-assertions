@@ -1,10 +1,8 @@
-# GenerateSyntaxTestAssertions
+# Generate Syntax Test Assertions
 
 Generate Sublime Text syntax test assertions for the current cursor position.
 
 ## Installation
-
-**Pending availability in Package Control.**
 
 Install [GenerateSyntaxTestAssertions](https://packagecontrol.io/packages/GenerateSyntaxTestAssertions) via Package Control.
 
